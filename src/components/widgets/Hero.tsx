@@ -66,7 +66,7 @@ const Hero = () => {
           />
           <p className="ml-10 text-lg">
             {" "}
-            <span className="text-red-600 font-bold text-lg"> 10,000+ </span>
+            <span className="text-red-700 font-bold text-lg"> 10,000+ </span>
             tech community members!
           </p>
         </div>
