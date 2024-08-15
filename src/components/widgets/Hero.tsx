@@ -17,6 +17,7 @@ const Hero = () => {
   return (
     <div
       className="
+      max-h-screen 
     flex m-6  mt-0  gap-2  bg-gray-100 rounded-[2.5rem]   
     max-sm:flex-col max-sm:items-center max-sm:p-2
     max-md:flex-col 
@@ -24,11 +25,11 @@ const Hero = () => {
     lg:pl-8 lg:items-center lg:justify-center
     "
     >
-      <div className=" flex flex-col max-lg:basis-[60%] lg:basis-[60%]    ">
+      <div className=" flex flex-col max-lg:basis-[60%] lg:basis-[55%]    ">
         <div className="flex flex-col ">
           {/* Left Side */}
           <div className="text-center max-sm:p-2 font-bold max-md:px-4 max-sm:text-xl max-md:text-2xl max-lg:text-4xl  lg:text-left lg:ml-0 lg:p-0 lg:text-5xl text-[#333]">
-            <h1>
+            <h1 className="max-lg:m-2">
               Certified Cloud Native Applied Generative AI Engineer - PIAIC
             </h1>
           </div>
@@ -39,7 +40,7 @@ const Hero = () => {
           lg:text-start  lg:px-0
           "
           >
-            <p className="font-medium max-sm:text-sm max-md:text-base lg:text-lg  ">
+            <p className="font-small max-sm:text-sm max-md:text-base lg:text-lg  ">
               The Cloud Native Applied Generative AI Certification program
               equips you to create leading-edge Cloud Native AI and Physical AI
               solutions using a comprehensive cloud-native, AI, and Physical AI

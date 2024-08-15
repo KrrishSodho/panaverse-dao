@@ -16,13 +16,13 @@ const Header = () => {
 
       <div className="  ">
         <ul className="flex items-center  text-zinc-600 font-semibold space-x-6">
-          <li className=" hover:bg-lime-700">
+          <li className=" hover:text-lime-700">
             <Link href="/">Home</Link>
           </li>
-          <li className=" hover:bg-lime-700">
+          <li className=" hover:text-lime-700">
             <Link href="/Blog">Blog</Link>
           </li>
-          <li className=" hover:bg-lime-700">
+          <li className=" hover:text-lime-700">
             <Link href="/Contact">Contact</Link>
           </li>
           <li>
