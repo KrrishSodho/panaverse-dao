@@ -77,7 +77,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className=" flex items-end p-4 justify-center max-lg:w-[50%] max-lg:h-[50%]">
+      <div className=" flex items-end p-4 justify-center ">
         <Image className="" src={Hero5} alt="Hero Poster Student" />
       </div>
     </div>
