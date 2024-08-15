@@ -17,7 +17,7 @@ const Hero = () => {
   return (
     <div
       className="
-     h-screen 
+    h-screen
     flex m-6  mt-0  gap-2  bg-gray-100 rounded-[2.5rem]   
     max-sm:flex-col max-sm:items-center max-sm:p-2
     max-md:flex-col 
@@ -77,7 +77,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className=" flex overflow-hidden justify-center items-center max-sm:mb-6 ">
+      <div className=" flex overflow-hidden justify-center items-center max-sm:mb-4 ">
         <Image className="" src={Hero5} alt="Hero Poster Student" />
       </div>
     </div>
