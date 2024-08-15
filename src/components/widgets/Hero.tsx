@@ -17,7 +17,7 @@ const Hero = () => {
   return (
     <div
       className="
-     max-h-screen 
+     min-h-screen 
     flex m-6  mt-0  gap-2  bg-gray-100 rounded-[2.5rem]   
     max-sm:flex-col max-sm:items-center max-sm:p-2
     max-md:flex-col 
