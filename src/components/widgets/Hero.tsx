@@ -17,7 +17,7 @@ const Hero = () => {
   return (
     <div
       className="
-      max-h-screen 
+     max-h-screen 
     flex m-6  mt-0  gap-2  bg-gray-100 rounded-[2.5rem]   
     max-sm:flex-col max-sm:items-center max-sm:p-2
     max-md:flex-col 
@@ -25,7 +25,7 @@ const Hero = () => {
     lg:pl-8 lg:items-center lg:justify-center
     "
     >
-      <div className=" flex flex-col max-lg:basis-[60%] lg:basis-[55%]    ">
+      <div className=" flex flex-col max-sm:basis-1/2 max-lg:basis-[60%] lg:basis-[55%]    ">
         <div className="flex flex-col ">
           {/* Left Side */}
           <div className="text-center max-sm:p-2 font-bold max-md:px-4 max-sm:text-xl max-md:text-2xl max-lg:text-4xl  lg:text-left lg:ml-0 lg:p-0 lg:text-5xl text-[#333]">
