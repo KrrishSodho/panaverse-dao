@@ -25,7 +25,7 @@ const Hero = () => {
     lg:pl-8 lg:items-center lg:justify-center
     "
     >
-      <div className=" flex flex-col max-sm:basis-1/2 max-lg:basis-[60%] lg:basis-[55%]    ">
+      <div className=" flex flex-col  max-lg:basis-[60%] max-md:basis-1/2 lg:basis-[55%]    ">
         <div className="flex flex-col ">
           {/* Left Side */}
           <div className="text-center max-sm:p-2 font-bold max-md:px-4 max-sm:text-xl max-md:text-2xl max-lg:text-4xl  lg:text-left lg:ml-0 lg:p-0 lg:text-5xl text-[#333]">
